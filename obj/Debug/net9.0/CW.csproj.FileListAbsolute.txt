@@ -32,3 +32,6 @@
 /Users/nazar/Projects/Learn/c#/CW/obj/Debug/net9.0/CW.pdb
 /Users/nazar/Projects/Learn/c#/CW/obj/Debug/net9.0/CW.genruntimeconfig.cache
 /Users/nazar/Projects/Learn/c#/CW/obj/Debug/net9.0/ref/CW.dll
+/Users/nazar/Projects/Learn/c#/CW/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/nazar/Projects/Learn/c#/CW/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/nazar/Projects/Learn/c#/CW/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
