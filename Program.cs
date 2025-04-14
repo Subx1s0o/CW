@@ -8,10 +8,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(Environment.GetEnvironmentVariable("DB_URL")));
 
+builder.Services.AddControllers();
+
 var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
+app.MapControllers();
+
 app.Run();

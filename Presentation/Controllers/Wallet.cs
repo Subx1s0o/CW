@@ -13,8 +13,8 @@ public class WalletController : ControllerBase
         return Ok("Wallet");
     }
 
-    [HttpGet("{id}")]
-    public IActionResult GetById(string id)
+    [HttpGet("{currencyType}")]
+    public IActionResult GetByCurrencyType(string currencyType)
     {
         return Ok("Wallet");
     }
