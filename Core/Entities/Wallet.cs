@@ -19,6 +19,9 @@ public class Wallet
     public required CurrencyType Currency { get; set; }
 
     [Required]
+    public required string Address { get; set; }
+
+    [Required]
     [ForeignKey("User")]
     public required User User { get; set; }
 

@@ -29,6 +29,13 @@ public class Transaction
     public required Guid UserId { get; set; }
 
     [Required]
+    [ForeignKey("Wallet")]
+    public required Wallet Wallet { get; set; }
+
+    [Required]
+    public required Guid WalletId { get; set; }
+
+    [Required]
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
     [Required]
